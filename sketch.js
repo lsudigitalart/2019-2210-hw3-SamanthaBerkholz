@@ -8,7 +8,7 @@ function setup() {
 
     background(0);
 
-    for(var i = 0; i <2000; i = i+10){
+    for(var i = 0; i <20000; i = i+10){
         var x = random(width);
         var y = random(height);
         var r = random(i);
