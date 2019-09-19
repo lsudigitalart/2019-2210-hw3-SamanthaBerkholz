@@ -13,7 +13,7 @@ function setup() {
         var y = random(height);
         var r = random(i);
         fill(random(x),random(y),random(i));
-        ellipse(x,y,i/15);
+        ellipse(x,y,i/150);
         quad(x,y,x*2,y*2,x+2,y+2,x,+10,y+10);
         
     }
